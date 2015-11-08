@@ -29,9 +29,13 @@ $('#content').click(function(){
 
 $('#info_button').click(function(){
     console.log($('#info').css('visibility'))
-    if ($('#info').css('visibility') == 'hidden')
+    if ($('#info').css('visibility') == 'hidden') {
+        $('#info_button').html('-i')
         $('#info').css('visibility', 'visible')
-    else $('#info').css('visibility', 'hidden')
+    } else  {
+        $('#info_button').html('+i')
+        $('#info').css('visibility', 'hidden')
+    }
 })
 
 //LOAD Poems
