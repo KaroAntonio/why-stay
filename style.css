@@ -1,0 +1,49 @@
+body {
+    background-image: url("assets/vhs_sunset.gif");
+    background-repeat: repeat;
+    background-position:center;
+    margin: 0px;
+    border: 0px;
+    background-attachment: fixed;
+    
+}
+
+#content {
+    cursor: pointer;
+    position: absolute;
+    padding-top: 40vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    height: 100vh;
+    width: 60vw;
+    text-align: center;
+    /*font-family: sans-serif;*/
+    /*font-family:monospace;*/
+    font-size: 50px;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    
+}
+
+#info_button {
+    z-index: 10;
+    cursor: pointer;
+    position: absolute;
+    padding-top: 2vh;
+    padding-left: 94vw;
+    font-size: 30px;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#info {
+    visibility: hidden;
+    padding-top: 2vh;
+    font-size: 30px;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    width: 100vw;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+}
