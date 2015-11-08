@@ -26,6 +26,8 @@ body {
 }
 
 #info_button {
+    text-align: right;
+    width: 2vw;
     z-index: 10;
     cursor: pointer;
     position: absolute;
